@@ -50,8 +50,7 @@ lm.dewpoint <- lm(Tdewpoint ~., data= energy[,-1])
 summary(lm.dewpoint)
 1/(1-summary(lm.dewpoint)$r.squared)
 #TI ~ All x's
-#centering by subtracting mean from every regressor can help with collinearity
-#also helpful for
+#Centering by subtracting mean from every regressor can help with collinearity
 
 #Ridge Regression
 #alpha determines if use lasso or ridge. ridge just makes the coefficients closer to zero
