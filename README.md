@@ -1,2 +1,2 @@
 # Statistical_Modeling
-Regression modeling examples, including OLS, mixed-effects models, factors, and interaction analysis.
+ The first 2 files examine workflows for regression modeling, including OLS, mixed-effects models, factors, and interaction analysis.
